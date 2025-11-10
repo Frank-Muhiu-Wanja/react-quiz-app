@@ -1,0 +1,96 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+body {
+  border: solid 1px rgb(210, 63, 63);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: whitesmoke; */
+  /* color: #000; */
+}
+.App {
+  background: rgb(85, 56, 62);
+  border: solid 1px white;
+  /* width: 350px; */
+  min-width: 400px;
+  padding: 15px;
+  box-shadow: 7px 7px 15px rgba(225, 225, 255, 0.2);
+  border-radius: 10px;
+}
+
+.quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px gray;
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.btn {
+  display: block;
+  border: solid 1px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.btn:last-of-type {
+  margin-bottom: 0;
+  color: white;
+}
+
+.correct {
+  background: green;
+  color: white;
+  display: block;
+  border: solid 1px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.wrong {
+  background: red;
+  color: white;
+  display: block;
+  border: solid 1px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.next {
+  margin-top: 0;
+  display: block;
+  border: solid 1px;
+  padding: 10px;
+  background-color: green;
+  text-align: center;
+  width: 100%;
+}
+.next2 {
+  margin-top: 0;
+  display: block;
+  border: solid 1px;
+  padding: 10px;
+  background-color: rgb(64, 199, 64);
+  text-align: center;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover,
+.next:hover {
+  opacity: 0.7;
+}
+
+.qxn {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
